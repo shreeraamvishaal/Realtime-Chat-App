@@ -1,6 +1,6 @@
 # Realtime-Chat-App
 
-A full-stack real-time chat application built with **React** and **Firebase**, supporting secure user authentication, real-time messaging, media sharing, and online presence tracking.
+A full-stack real-time chat application built with **React** and **Firebase**, supporting secure user authentication, real-time messaging, media sharing, and online presence tracking, Dockerized for easy setup and deployment.
 
 ## Features
 
@@ -34,6 +34,23 @@ A full-stack real-time chat application built with **React** and **Firebase**, s
 - Firebase Authentication
 - Cloud Firestore (for chat + user data)
 - Firebase Storage (for media)
+- **Dockerized Setup**
+  - Easily run the entire frontend locally in seconds using Docker
+
+---
+
+## 🐳 Docker Usage
+
+You can run this project using Docker with just a few commands.
+
+### 1. Clone the Repository
+
+```bash or pwsh (your choice)
+git clone https://github.com/shreeraamvishaal/Realtime-Chat-App.git
+cd Realtime-Chat-App/chat-app
+docker build -t realtime-chat-app .
+docker run -d -p 3000:80 realtime-chat-app
+```
 
 Built by Shree Raam Vishaal K  
 connect with me on (Linkedin)[https://www.linkedin.com/in/shree-raam-vishaal-1b6128263/]
